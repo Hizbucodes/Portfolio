@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import image from '../assets/Portfolio-Image.png';
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import gitHub from '../assets/github-svgrepo-com (2).svg';
@@ -8,15 +8,17 @@ import facebook from '../assets/facebook-svgrepo-com.svg';
 import arrowDown from '../assets/arrow-down-circle-svgrepo-com.svg'
 import { Link as Down} from 'react-scroll';
 
+
 const Home = () => {    
+   
 
   return (
-    <main className='max-w-[1640px] mx-auto flex items-center justify-evenly xl:justify-between h-screen p-5 flex-col-reverse xl:flex-row' name="Home">
+    <main className='max-w-screen-xl mx-auto flex items-center justify-evenly xl:justify-between h-screen p-5 flex-col-reverse xl:flex-row' name="Home">
         {/* Details - Side */}
         <div className='text-primary flex flex-col gap-10 xl:gap-12 items-center xl:items-start'>
                 <div>
-                    <h1 className='text-3xl text-center xl:text-8xl xl:text-start'>
-                        Aspiring Full - Stack Developer.<span className='text-3xl'>💻</span>
+                    <h1 className='text-3xl text-center xl:text-7xl xl:text-start'>
+                        Aspiring Full - Stack<br/> Developer.<span className='text-3xl'>💻</span>
                         
                     </h1>
                     
@@ -26,7 +28,7 @@ const Home = () => {
 
                 <div>
                     <p className='text-md xl:text-2xl text-white/85 text-center xl:text-start'>
-                    Hi, I'm Hizbullah. A passionate Full-Stack Developer based in Sri Lanka, Kandy. 📍
+                    Hi, I'm Hizbullah. A passionate Full-Stack Developer<br/> based in Sri Lanka, Kandy. 📍
                     </p>
                 </div>
 
@@ -65,7 +67,7 @@ const Home = () => {
 
         {/* Image - Side */}
         <div>
-            <img src={image} alt="Image" title='Hizbullah' className='w-[250px] rounded-2xl xl:w-[500px]'/>
+            <img src={image} alt="Image" title='Hizbullah' className='w-[250px] rounded-2xl xl:w-[300px]'/>
         </div>
     </main>
   ) 

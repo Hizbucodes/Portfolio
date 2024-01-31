@@ -55,7 +55,7 @@ const Experience = () => {
     ]
 
   return (
-   <section className='max-w-[1640px] p-5 mx-auto min-h-screen' name="Experience">
+   <section className='max-w-screen-xl p-5 mx-auto min-h-screen' name="Experience">
      {/* Heading & Sub Heading */}
      <div className='mt-20 flex flex-col gap-8 mb-20'>
             <h2 className='font-bold text-xl lg:text-2xl text-secondary underline underline-offset-8 '>Experience</h2>

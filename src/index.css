@@ -5,9 +5,5 @@
 
 
 body{
-    background: rgb(1,12,50);
-background: -moz-linear-gradient(90deg, rgba(1,12,50,1) 0%, rgba(0,2,43,1) 0%, rgba(27,1,1,1) 61%, rgba(26,1,1,1) 61%, rgba(0,0,0,1) 88%);
-background: -webkit-linear-gradient(90deg, rgba(1,12,50,1) 0%, rgba(0,2,43,1) 0%, rgba(27,1,1,1) 61%, rgba(26,1,1,1) 61%, rgba(0,0,0,1) 88%);
-background: linear-gradient(90deg, rgba(1,12,50,1) 0%, rgba(0,2,43,1) 0%, rgba(27,1,1,1) 61%, rgba(26,1,1,1) 61%, rgba(0,0,0,1) 88%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010c32",endColorstr="#000000",GradientType=1);
+    background-image: linear-gradient(to left bottom, #0b4255, #003951, #002f4b, #002645, #001c3e, #12183e, #20143b, #2b0d37, #400935, #52062f, #600926, #6a161b);
 }
