@@ -59,7 +59,7 @@ const Projects = () => {
     ]
 
   return (
-    <section className='max-w-screen-xl min-h-screen p-5 mx-auto' name="Projects">
+    <section className='max-w-screen-xl min-h-screen px-20 mx-auto' name="Projects">
         {/* Heading & Sub Heading */}
         <div className='mt-20 flex flex-col gap-8 mb-20'>
             <h2 className='font-bold text-xl lg:text-2xl text-secondary underline underline-offset-8 '>Portfolio</h2>
