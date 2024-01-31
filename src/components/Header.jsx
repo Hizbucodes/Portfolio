@@ -33,7 +33,7 @@ const Header = () => {
   
 
   return (
-    <header className='max-w-screen-xl lg:h-[80px] h-[50px] bg-white/30 backdrop-blur-sm md:bg-transparent mx-auto flex justify-between p-5 items-center text-primary fixed top-0 left-0 right-0 z-20 px-20'>
+    <header className='max-w-screen-xl lg:h-[80px] h-[50px] bg-white/30 backdrop-blur-sm md:bg-transparent mx-auto flex justify-between p-5 items-center text-primary fixed top-0 left-0 right-0 z-20'>
 
         {/* Title */}
         <div className='flex gap-2 items-center'>

@@ -5,7 +5,7 @@ import linnkedIn from '../assets/linkedin-svgrepo-com.svg';
 const Footer = () => {
     const currentYear = new Date();
   return (
-    <footer className='w-full h-[20vh] bg-white/15 flex flex-col items-center justify-around text-secondary lg:flex-row text-center px-20'>
+    <footer className='w-full h-[20vh] bg-white/15 flex flex-col items-center justify-around text-secondary lg:flex-row text-center p-5'>
             <div className='text-sm font-bold lg:text-xl'>
                 <p>
                 {currentYear.getFullYear()} portfolio - designed & developed by Hizbullah

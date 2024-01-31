@@ -13,7 +13,7 @@ const Home = () => {
    
 
   return (
-    <main className='max-w-screen-xl mx-auto flex items-center justify-evenly xl:justify-between h-screen px-20 flex-col-reverse xl:flex-row' name="Home">
+    <main className='max-w-screen-xl mx-auto flex items-center justify-evenly xl:justify-between h-screen p-5 flex-col-reverse xl:flex-row' name="Home">
         {/* Details - Side */}
         <div className='text-primary flex flex-col gap-10 xl:gap-12 items-center xl:items-start'>
                 <div>
