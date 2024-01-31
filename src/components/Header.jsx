@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { CiMenuFries } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
 import {Link} from 'react-scroll';
+import paperPlane from '../assets/paper-plane.png';
 
 const Header = () => {
 
@@ -35,8 +36,9 @@ const Header = () => {
     <header className='max-w-[1640px] lg:h-[80px] h-[50px] bg-white/30 backdrop-blur-sm md:bg-transparent mx-auto flex justify-between p-5 items-center text-primary fixed top-0 left-0 right-0 z-20'>
 
         {/* Title */}
-        <div>
+        <div className='flex gap-2 items-center'>
             <h1 className='text-2xl md:text-4xl font-bold'>Hizbullah</h1>
+            <img src={paperPlane} alt="paperPlane" />
         </div>
 
         {/* desktop-menu-list */}

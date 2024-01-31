@@ -5,6 +5,8 @@ import gitHub from '../assets/github-svgrepo-com (2).svg';
 import linnkedIn from '../assets/linkedin-svgrepo-com.svg';
 import { Link } from 'react-router-dom';
 import facebook from '../assets/facebook-svgrepo-com.svg';
+import arrowDown from '../assets/arrow-down-circle-svgrepo-com.svg'
+import { Link as Down} from 'react-scroll';
 
 const Home = () => {    
 
@@ -14,7 +16,7 @@ const Home = () => {
         <div className='text-primary flex flex-col gap-10 xl:gap-12 items-center xl:items-start'>
                 <div>
                     <h1 className='text-3xl text-center xl:text-8xl xl:text-start'>
-                        Aspiring Full - Stack Developer.<span className='text-5xl'>💻</span>
+                        Aspiring Full - Stack Developer.<span className='text-3xl'>💻</span>
                         
                     </h1>
                     
@@ -53,6 +55,10 @@ const Home = () => {
                  <img src={facebook} alt="facebook" className='w-10'/>
                  </Link>
                 </div>
+
+                <Down to="About" className='w-10 animate-bounce mx-auto hover:cursor-pointer' smooth duration={800} title='Scroll Down'>
+                    <img src={arrowDown} alt="downArrow" className='animate-pulse'/>
+                </Down>
               
         </div>
 

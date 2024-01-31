@@ -3,7 +3,7 @@ import aboutImage from '../assets/About-Image.jpg'
 
 const About = () => {
   return (
-    <section className='max-w-[1640px] mx-auto flex items-center justify-center lg:justify-between h-screen p-5 flex-col lg:flex-row gap-8' name="About">
+    <section className='max-w-[1640px] mx-auto flex items-center justify-center lg:justify-between h-auto p-5 flex-col lg:flex-row gap-8' name="About">
         {/* About - Image */}
         <div className="about-image ">
             <img src={aboutImage} alt="Image" className='w-[250px] rounded-2xl lg:w-[500px]'/>
