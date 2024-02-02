@@ -46,7 +46,7 @@ const Header = () => {
           <div className='lg:flex hidden'>
           <ul className='flex gap-12'>
                 {links.map(({id, link})=>(
-                    <li key={id} className='cursor-pointer font-medium text-2xl hover:scale-110 duration-300'>
+                    <li key={id} className='cursor-pointer font-medium text-xl hover:scale-110 duration-300'>
                         <Link to={link} smooth duration={500}>{link}</Link>
                     </li>
                 ))}

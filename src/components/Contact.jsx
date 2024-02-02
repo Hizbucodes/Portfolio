@@ -30,7 +30,7 @@ const Contact = () => {
 
 
   return (
-    <section className='max-w-screen-xl min-h-screen p-5 mx-auto' name="Contact">
+    <section className='max-w-screen-lg min-h-screen p-5 mx-auto' name="Contact">
         {/* Heading & Sub Heading */}
         <div className='mt-20 flex flex-col gap-8 mb-20'>
             <h2 className='font-bold text-xl lg:text-2xl text-secondary underline underline-offset-8 '>Contact</h2>
@@ -91,7 +91,7 @@ const Contact = () => {
                             
                         />
 
-                        <button className='bg-white/15 md:py-5 md:px-16 py-3 px-5 rounded-lg flex items-center gap-4 text-xl hover:scale-105 duration-300'>
+                        <button className='bg-white/15 py-3 px-8 rounded-lg flex items-center gap-4 text-xl hover:scale-105 duration-300'>
                             <span>Send</span> <img src={send} alt="send" className='w-6'/>
                         </button>
                     </form>

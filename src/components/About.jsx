@@ -3,10 +3,10 @@ import aboutImage from '../assets/About-Image.jpg'
 
 const About = () => {
   return (
-    <section className='max-w-screen-xl mx-auto flex items-center justify-center lg:justify-between h-auto p-5 flex-col lg:flex-row gap-8' name="About">
+    <section className='max-w-screen-lg mx-auto flex items-center justify-between lg:justify-between h-auto p-5 flex-col lg:flex-row gap-8' name="About">
         {/* About - Image */}
         <div className="about-image ">
-            <img src={aboutImage} alt="Image" className='w-[250px] rounded-2xl lg:w-[400px]'/>
+            <img src={aboutImage} alt="Image" className='w-[250px] rounded-2xl lg:w-[300px]'/>
         </div>
 
         {/* About - Description */}
@@ -15,7 +15,7 @@ const About = () => {
             <h2 className='font-bold text-xl lg:text-2xl text-secondary underline underline-offset-8'>About me</h2>
             </div>
             <div>
-            <h1 className='font-medium text-2xl text-primary lg:text-4xl'>
+            <h1 className='font-medium text-2xl text-primary lg:text-2xl'>
             A dedicated Full - Stack Developer <br/>
 based in Sri Lanka, Kandy 📍
             </h1></div>

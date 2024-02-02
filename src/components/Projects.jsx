@@ -21,7 +21,7 @@ const Projects = () => {
 
             code: 'https://github.com/Hizbucodes/Foodie',
 
-            techStack: ['React', 'TailwindCSS'],
+           
 
         },
 
@@ -38,7 +38,7 @@ const Projects = () => {
 
             code: 'https://github.com/Hizbucodes/E-Commerce-Site',
 
-            techStack: ['React', 'TailwindCSS'],
+           
         },
         {
             id: 3,
@@ -53,13 +53,13 @@ const Projects = () => {
 
             code: 'https://github.com/Hizbucodes/NoteFlow',
 
-            techStack: ['React', 'CSS'],
+        
         },
 
     ]
 
   return (
-    <section className='max-w-screen-xl min-h-screen p-5 mx-auto' name="Projects">
+    <section className='max-w-screen-lg min-h-screen p-5 mx-auto' name="Projects">
         {/* Heading & Sub Heading */}
         <div className='mt-20 flex flex-col gap-8 mb-20'>
             <h2 className='font-bold text-xl lg:text-2xl text-secondary underline underline-offset-8 '>Portfolio</h2>
@@ -74,7 +74,7 @@ const Projects = () => {
         {projects.map(({id, projectImage, projectTitle, description, demo, code, techStack})=>(
             <div className='bg-white/15 p-5 rounded-3xl shadow-2xl flex gap-12 flex-col xl:flex-row' key={id}>
                     <div className='rounded-2xl'>
-                    <img src={projectImage} alt="Foodie-App" className='rounded-2xl lg:max-w-screen-md'/>
+                    <img src={projectImage} alt="Foodie-App" className='rounded-2xl lg:max-w-screen-sm'/>
                     </div>
                     <div className='flex justify-around items-center flex-col gap-12 xl:gap-0'>
                         <div className='text-secondary font-bold text-2xl'>
@@ -85,18 +85,10 @@ const Projects = () => {
                                 {description}
                             </p>
                         </div>
-                        <div className='flex gap-4 font-bold'>
-                            <div className='bg-secondary px-8 py-4 rounded-xl'>
-                                <p>{techStack[0]}</p>
-                            </div>
-
-                            <div className='bg-secondary px-8 py-4 rounded-xl'>
-                                <p>{techStack[1]}</p>
-                            </div>
-                        </div>
-                    <div className='flex gap-12 font-bold'>
-                    <a href={demo} target='_blank' className='text-secondary border rounded-lg py-4 px-8 flex items-center gap-4 hover:scale-110 duration-300'>Demo <img className='w-5' src={link} alt="github" /></a>
-                    <a href={code} target='_blank' className='text-secondary border rounded-lg py-4 px-8 flex items-center gap-4 hover:scale-110 duration-300'>Code <img className='w-5' src={gitHub} alt="link" /></a>
+                   
+                    <div className='flex gap-12'>
+                    <a href={demo} target='_blank' className='text-primary w-28 justify-center flex items-center gap-4 hover:scale-110 duration-300'>Demo <img className='w-5' src={link} alt="github" /></a>
+                    <a href={code} target='_blank' className='text-primary px-8 flex items-center gap-4 hover:scale-110 duration-300'>Code <img className='w-5' src={gitHub} alt="link" /></a>
                     </div>
                     </div>
             </div>
